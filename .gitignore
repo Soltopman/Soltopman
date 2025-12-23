@@ -1,0 +1,6 @@
+# Hexo build outputs and dependencies
+node_modules/
+public/
+.deploy_git/
+db.json
+node_modules
