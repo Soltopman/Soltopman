@@ -14,7 +14,7 @@ timezone: Asia/Shanghai
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
 # URL - 先用 Vercel 域名，后续改
-url: https://your-blog.vercel.app
+url: https://soltopman.vercel.app
 root: /
 permalink: :year/:month/:title/
 permalink_defaults:
