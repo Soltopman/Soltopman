@@ -1,0 +1,73 @@
+# Navigation
+menu:
+  Home: /
+  Archives: /archives
+  About: /about
+rss: /atom.xml
+
+home:
+  style: default # default, detail
+
+favicon: # Path relative to /source, e.g. "/favicon.png" if you put it in source/favicon.png
+
+# Banner
+banner:
+  enable: false
+  url:
+  position: center
+  onAllPages: true
+
+# Appearance
+hue: 250 # Theme color hue
+
+# Personal info
+avatar:
+author: Soltopman
+subtitle: A simple blog
+links:
+  - name: Twitter
+    icon: fa-brands fa-twitter
+    url: https://twitter.com
+  - name: GitHub
+    icon: fa-brands fa-github
+    url: https://github.com/Soltopman
+
+# Sidebar
+sidebar:
+  widgets:
+    normal:
+      - profile
+    sticky:
+      - category
+      - tag
+      - recent_posts
+
+archive_type: 'monthly'
+recent_posts_limits: 5
+categories:
+  max_depth: 2
+
+# Comments (all off by default)
+comment:
+  valine:
+    enable: false
+    appId:
+    appKey:
+    placeholder: Just go go
+    pageSize: 10
+    highlight: true
+    serverURLs:
+  twikoo:
+    enable: false
+    envID:
+    region:
+    path: location.pathname
+    lang:
+  waline:
+    enable: false
+    serverURL:
+
+# Analytics
+gauges_analytics: false
+google_analytics: false
+baidu_analytics: false
