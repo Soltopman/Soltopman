@@ -6,9 +6,9 @@ menu:
 rss: /atom.xml
 
 home:
-  style: default # default, detail
+  style: detail          # default, detail
 
-favicon: # Path relative to /source, e.g. "/favicon.png" if you put it in source/favicon.png
+favicon:                # Path relative to /source, e.g. "/favicon.png" if you put it in source/favicon.png
 
 # Banner
 banner:
@@ -18,16 +18,19 @@ banner:
   onAllPages: true
 
 # Appearance
-hue: 250 # Theme color hue
+hue: 250                # Theme color hue (0 red, 60 orange, 260 blue, 300 purple, 345 pink)
 
 # Personal info
-avatar:
+avatar: https://raw.githubusercontent.com/saicaca/resource/main/vivia-img/avatar.png
 author: Soltopman
-subtitle: A simple blog
+subtitle: 记录技术与生活
 links:
   - name: Twitter
     icon: fa-brands fa-twitter
     url: https://twitter.com
+  - name: Steam
+    icon: fa-brands fa-steam
+    url: https://store.steampowered.com
   - name: GitHub
     icon: fa-brands fa-github
     url: https://github.com/Soltopman
@@ -40,6 +43,7 @@ sidebar:
     sticky:
       - category
       - tag
+      - archive
       - recent_posts
 
 archive_type: 'monthly'
