@@ -3,10 +3,10 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 凡人修仙传
+title: Hui'blog
 subtitle: '一个简介的博客'
-description: '使用Hexo+Vivia搭建'
-keywords: 'tech,blog,Hexo,Vivia'
+description: '使用Hexo+Butterfly搭建'
+keywords: 'tech,blog,Hexo,Butterfly'
 author: Soltopman
 language: zh-CN
 timezone: Asia/Shanghai
